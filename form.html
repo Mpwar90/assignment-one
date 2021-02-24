@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+</head>
+<body>
+    <h1>My Biodata</h1>
+    <Form method="POST"><Fieldset>
+        <legend>Personal Information</legend>
+        <Label for="fname">First Name:</Label>
+        <input type="text"id="fname"placeholder="First Name"> 
+        <label for="lname">Last Name:</label>
+        <input type="text"id="lname"placeholder="Last Name">
+        <br>
+        <br>
+        <label for="male">Male:</label>
+        <input type="radio"id="Male"name="gender">
+        <label for="Female">Female:</label>
+        <input type="radio"id="Female"name="gender">
+        <label for="other">Other:</label>
+        <input type="radio"id="Other"name="gender">
+        <br>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date"id="dob">
+        <br>
+        <br>
+        <label for="email">E-Mail:</label>
+        <input type="email"id="email" placeholder="Enter your Email">
+        <br>
+        <br>
+        <label for="phonenum">phone:</label>
+        <input type="tel"id="phonenum"placeholder="+91">
+        <br>
+        <br>
+        <label for="Height">Height:</label>
+        <input type="number"id="height"placeholder="Height in Feet"step= "any" >
+        <br>
+        </Fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="Schname">School Name:</label>
+            <input type="text"id="Schname"placeholder="School Name">
+            <br>
+            <br>
+            <label for="Class">Class:</label>
+            <input type="text"id="Class"Placeholder="Enter Class">
+            <br>
+            <br>
+            <label for="Stream-Select">Stream</label>
+        <select name="Stream" id="Stream-Select">
+            <option value="">Stream</option>
+            <option value="IT">Information Technology</option>
+            <option value="ME">Mechanical Engineering</option>
+            <option value="CS">Computer Science</option>
+            <option value="EC">Electronics and Communication</option>
+        </select>
+        <br>
+        <br>
+        <label for="mrksht">Marksheet:</label>
+        <input type="file"id="mrksht">
+        <br>
+        <br>
+    </fieldset>
+    <br>
+    <input type="Submit" name=""id="">
+</Form>
+</body>
+</html>
